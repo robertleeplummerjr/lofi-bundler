@@ -1,6 +1,6 @@
 {
   "name": "lofi-bundler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple typescript bundler for projects with zero dependencies",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,8 @@
   },
   "bin": "dist/cli.js",
   "files": [
-    "src/*.ts"
+    "src/*.ts",
+    "dist/*.js"
   ],
   "devDependencies": {
     "jest": "^26.4.0",
